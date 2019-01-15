@@ -22,7 +22,7 @@ namespace opgave_variablertal
             kommatal *= 2;
             Console.WriteLine(kommatal);
 
-            //tyr
+            //tyrens
 
 
             if (System.Diagnostics.Debugger.IsAttached)
