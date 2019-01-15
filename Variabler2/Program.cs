@@ -19,7 +19,8 @@ namespace Variabler2
             System.DateTime d = DateTime.Now;
 
 
-            string sti = "c:\\temp\\test"
+            //string sti = "c:\\temp\\test";
+
             String sti = @"c:\temp\test.dk";
             Console.WriteLine(sti);
 
