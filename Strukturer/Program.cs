@@ -44,15 +44,10 @@ namespace Strukturer
 
 
             Vare v2 = new Vare();
-
             v2.Id = 2;
-
             v2.Navn = "Vare #2";
-
-            v2.Beskrivelse = "Min beskrivelse til #2";
-
+            v2.Beskrivelse = "Min beskrivelsetil #2";
             v2.Pris = 200;
-
             Console.WriteLine($"{v2.Navn} koster {v2.Pris:N2}");
 
 
@@ -61,6 +56,7 @@ namespace Strukturer
 
             Console.WriteLine($"{v2Kopi.Navn} koster {v2Kopi.Pris:N2}");
 
+            
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
