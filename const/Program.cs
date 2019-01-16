@@ -30,7 +30,12 @@ namespace @const
                 Console.WriteLine($"i = {i.ToString()}");
 
             }
-
+            {
+                int x = 15;
+                    int y = 6;
+                    x %= y;
+                Console.WriteLine(x);//brug af %rest finder
+            }
             {
                 double b3 = (10 - 5) / 5;
                 Console.WriteLine($"Alex er nummer = {b3}");
