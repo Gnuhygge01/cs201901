@@ -13,7 +13,12 @@ namespace @const
             var i = 1223;
             // finder selv ud af variabel int i = 1223; .... ved at kigge på højre side af =
 
+            var e = DateTime.Now.AddDays(1);    // DateTime
+            Console.WriteLine(e);
+            var t = DateTime.Now;
+            Console.WriteLine(t);
 
+                
 
 
             //cd +tab+tab

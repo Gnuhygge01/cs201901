@@ -10,31 +10,21 @@ namespace Text_med_strenge
     {
         static void Main(string[] args)
         {
-            String fornavn = "Mikkel";
-            String efternavn = "Cronberg";
-
-            String samletNavn = fornavn + " " + efternavn;
-           
+            string fornavn = "Mikkel";
+            string efternavn = "Cronberg";
+            string samletNavn = fornavn + " " + efternavn;
             Console.WriteLine(samletNavn);
-
             string navnStort = samletNavn.ToUpper();
-
             Console.WriteLine(navnStort);
-
             string navnLille = samletNavn.ToLower();
-
             Console.WriteLine(navnLille);
 
-            string del = samletNavn.Substring(7, 4);
+            String delnavn = samletNavn.Substring(7,4);
+            Console.WriteLine(delnavn );
 
-            Console.WriteLine(del);
-
-
-
-            Console.WriteLine(fornavn + "\r\n\t" + efternavn);
+            Console.WriteLine(fornavn + "\t\r\n" + efternavn);
 
             System.IO.File.WriteAllText("c:\\temp\\test.txt", samletNavn);
-
 
 
 

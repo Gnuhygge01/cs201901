@@ -9,13 +9,14 @@ namespace Enum
 
     enum KortKulør
 
-        Spar,
+    { Spar,
 
         Hjerter,
 
         Ruder,
 
         Klør
+    }
 
 
     class Program
@@ -40,7 +41,9 @@ namespace Enum
 
             KortKulør kort2Kulør = KortKulør.Ruder;
 
+            Console.WriteLine(kort2Kulør.ToString());
 
+            Console.WriteLine((int)kort2Kulør);
 
 
             if (System.Diagnostics.Debugger.IsAttached)
