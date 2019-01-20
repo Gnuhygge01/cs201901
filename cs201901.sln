@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct og enum kortspil", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For og if løkke", "For og if løkke\For og if løkke.csproj", "{60CD4DCD-A616-4102-8841-96880588E29A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flow_Break_Continue", "Flow_Break_Continue\Flow_Break_Continue.csproj", "{FAEB7D7D-DB74-4C5F-9437-6C9AE4CB381C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{60CD4DCD-A616-4102-8841-96880588E29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60CD4DCD-A616-4102-8841-96880588E29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60CD4DCD-A616-4102-8841-96880588E29A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAEB7D7D-DB74-4C5F-9437-6C9AE4CB381C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAEB7D7D-DB74-4C5F-9437-6C9AE4CB381C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAEB7D7D-DB74-4C5F-9437-6C9AE4CB381C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAEB7D7D-DB74-4C5F-9437-6C9AE4CB381C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
