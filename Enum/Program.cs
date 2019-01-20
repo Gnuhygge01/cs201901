@@ -9,7 +9,8 @@ namespace Enum
 
     enum KortKulør
 
-    { Spar,
+    {
+        Spar,
 
         Hjerter,
 
@@ -25,25 +26,37 @@ namespace Enum
         {
             int kort1Værdi = 2;
 
-            KortKulør kort1Kulør = KortKulør.Hjerter;
+            KortKulør kort2Kulør = KortKulør.Hjerter;
 
 
 
             // Skriver værdi og nummer ud
 
-            Console.WriteLine(kort1Kulør.ToString());
-
-            Console.WriteLine((int)kort1Kulør);
-
-
-
-            int kort2Værdi = 2;
-
-            KortKulør kort2Kulør = KortKulør.Ruder;
-
             Console.WriteLine(kort2Kulør.ToString());
 
-            Console.WriteLine((int)kort2Kulør);
+            Console.WriteLine((int)kort1Værdi);
+
+
+
+            int kort2Værdi = 4;
+
+            KortKulør kort3Kulør = KortKulør.Ruder;
+
+            Console.WriteLine(kort3Kulør.ToString());
+
+            Console.WriteLine((int)kort2Værdi);
+
+
+
+            int kort3Værdi = 13;
+
+            KortKulør kort1Kulør = KortKulør.Spar;
+
+            Console.WriteLine(kort1Kulør.ToString());
+
+            Console.WriteLine((int)kort3Værdi);
+
+
 
 
             if (System.Diagnostics.Debugger.IsAttached)
