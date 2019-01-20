@@ -33,9 +33,9 @@ namespace Strukturer
 
             v1.Id = 1;
 
-            v1.Navn = "Vare #1";
+            v1.Navn = "Frikadeller #1";
 
-            v1.Beskrivelse = "Min beskrivelse til #1";
+            v1.Beskrivelse = " Cool shops Frikadeller #1";
 
             v1.Pris = 100;
 
@@ -51,8 +51,21 @@ namespace Strukturer
             Console.WriteLine($"{v2.Navn} koster {v2.Pris:N2}");
 
 
+            Vare v3 = new Vare();
 
-            Vare v2Kopi = v2;
+            v3.Id = 3;
+
+            v3.Navn = "sugerør #3";
+
+            v3.Beskrivelse = " Cool shops Frikadeller #3";
+
+            v3.Pris = 120;
+
+            Console.WriteLine($"{v3.Navn} koster {v3.Pris:N2}");
+
+
+
+            Vare v2Kopi = v3;
 
             Console.WriteLine($"{v2Kopi.Navn} koster {v2Kopi.Pris:N2}");
 

@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strukturer", "Strukturer\St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", "{58FA4AF4-C536-4A64-B7B2-848C30EABB0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct og enum kortspil", "Struct og enum kortspil\Struct og enum kortspil.csproj", "{2C761061-DF53-4FD2-B007-7F29C3096D49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{58FA4AF4-C536-4A64-B7B2-848C30EABB0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58FA4AF4-C536-4A64-B7B2-848C30EABB0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58FA4AF4-C536-4A64-B7B2-848C30EABB0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C761061-DF53-4FD2-B007-7F29C3096D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C761061-DF53-4FD2-B007-7F29C3096D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C761061-DF53-4FD2-B007-7F29C3096D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C761061-DF53-4FD2-B007-7F29C3096D49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
