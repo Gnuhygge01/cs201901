@@ -47,7 +47,7 @@ namespace Enum
             Console.WriteLine((int)kort2Værdi);
 
 
-
+            // rettede kortkulør til Kortværdi så passede programmet 
             int kort3Værdi = 13;
 
             KortKulør kort1Kulør = KortKulør.Spar;
