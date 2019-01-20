@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flow_Break_Continue", "Flow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoder simple", "Metoder simple\Metoder simple.csproj", "{F0FA9D2F-9A0B-4762-BCFD-114F0FD9F99B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main metode med hent af brugerens indtastning", "Main metode med hent af brugerens indtastning\Main metode med hent af brugerens indtastning.csproj", "{91891F2F-2408-474A-BC3A-5D30C0234C4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{F0FA9D2F-9A0B-4762-BCFD-114F0FD9F99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0FA9D2F-9A0B-4762-BCFD-114F0FD9F99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0FA9D2F-9A0B-4762-BCFD-114F0FD9F99B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91891F2F-2408-474A-BC3A-5D30C0234C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91891F2F-2408-474A-BC3A-5D30C0234C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91891F2F-2408-474A-BC3A-5D30C0234C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91891F2F-2408-474A-BC3A-5D30C0234C4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
