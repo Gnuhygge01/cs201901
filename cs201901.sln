@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For og if løkke", "For og 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flow_Break_Continue", "Flow_Break_Continue\Flow_Break_Continue.csproj", "{FAEB7D7D-DB74-4C5F-9437-6C9AE4CB381C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoder simple", "Metoder simple\Metoder simple.csproj", "{F0FA9D2F-9A0B-4762-BCFD-114F0FD9F99B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{FAEB7D7D-DB74-4C5F-9437-6C9AE4CB381C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAEB7D7D-DB74-4C5F-9437-6C9AE4CB381C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAEB7D7D-DB74-4C5F-9437-6C9AE4CB381C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0FA9D2F-9A0B-4762-BCFD-114F0FD9F99B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0FA9D2F-9A0B-4762-BCFD-114F0FD9F99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0FA9D2F-9A0B-4762-BCFD-114F0FD9F99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0FA9D2F-9A0B-4762-BCFD-114F0FD9F99B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
