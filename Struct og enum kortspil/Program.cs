@@ -8,23 +8,34 @@ namespace Struct_og_enum_kortspil
 {
     class Program
     {
+
+        enum Kulør
+        {
+            Spar,
+            Hjerter,
+            Ruder,
+            Klør
+        }
+
+        struct SpilleKort
+        {
+            public int Værdi;
+            public Kulør Kulør;
+        }
+
+
         static void Main(string[] args)
         {
 
-            for (int xx = 1; xx < 11; xx++)
-            {
-                for (int yy = 1; yy < 11; yy++)
-                {
-                    string tal = (xx * yy).ToString();
-                    if ((xx * yy) > 50)
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                    else
-                        Console.ForegroundColor = ConsoleColor.White;
-                    Console.Write(tal.PadLeft(4));
-                }
-                Console.WriteLine();
-                Console.ForegroundColor = ConsoleColor.Gray;
-            }
+            SpilleKort s1 = new SpilleKort();
+            s1.Værdi = 2;
+            s1.Kulør = Kulør.Spar;
+            Console.WriteLine($"{s1.Kulør} {s1.Værdi}");
+
+            SpilleKort s2 = new SpilleKort();
+            s2.Værdi = 10;
+            s2.Kulør = Kulør.Hjerter;
+            Console.WriteLine($"{s2.Kulør} {s2.Værdi}");
 
             // Hold console åben ved debug
             if (System.Diagnostics.Debugger.IsAttached)
@@ -35,8 +46,6 @@ namespace Struct_og_enum_kortspil
 
 
 
-
-          
 
         }
 
