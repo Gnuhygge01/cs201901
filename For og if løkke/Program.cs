@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Struct_og_enum_kortspil
+namespace For_og_if_løkke
 {
     class Program
     {
@@ -36,9 +36,7 @@ namespace Struct_og_enum_kortspil
 
 
 
-          
 
         }
-
     }
 }
