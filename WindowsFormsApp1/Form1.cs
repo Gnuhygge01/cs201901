@@ -27,5 +27,12 @@ namespace WindowsFormsApp1
             var t = DateTime.Now;
             Console.WriteLine(t);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var t = DateTime.Now;
+            textBox1.Text = t.ToLongTimeString();
+
+        }
     }
 }

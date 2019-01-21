@@ -10,17 +10,17 @@ namespace Struct_Class
     {
         static void Main(string[] args)
         {
-            person p1;
-            k1 = new person();
+            //person p1;
+            //k1 = new person();
 
-            k1.Alder = 1;
-            k1.Navn = ("a");
+            //k1.Alder = 1;
+            //k1.Navn = ("a");
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
 
 
 
         }
-    }    struct person 
+    }    
 }

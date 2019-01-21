@@ -20,7 +20,6 @@ namespace Rekursivmetode_get_file
             }
         }
         
-    }
 
     static void PrintFiler(string sti)
     {
@@ -33,4 +32,5 @@ namespace Rekursivmetode_get_file
             PrintFiler(mappe);
     }
 }
-}
+    }
+
