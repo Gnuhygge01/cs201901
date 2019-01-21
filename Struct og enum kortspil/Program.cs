@@ -26,7 +26,7 @@ namespace Struct_og_enum_kortspil
 
         static void Main(string[] args)
         {
-
+            
             SpilleKort s1 = new SpilleKort();
             s1.Værdi = 3;
             s1.Kulør = Kulør.Spar;

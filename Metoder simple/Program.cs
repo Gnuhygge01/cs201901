@@ -10,11 +10,21 @@ namespace Metoder_simple
     {
         static void Main(string[] args)
         {
+
+            int slutres = LægSammen(4, 5);
+            Console.WriteLine(slutres);
+       
             int res = LægSammen(5, 2);
             Console.WriteLine(res); // 7
             double res2 = BeregnAreal(5);
             Console.WriteLine(res2); // 78.5398
+
             Udskriv("Dette er en test"); // Dette er en test
+            Double Moms = BeregnMoms(1100, 0.25);
+            Console.WriteLine(Moms);
+
+
+            Er("prøv igen");
 
 
             // Hold console åben ved debug
@@ -46,7 +56,12 @@ namespace Metoder_simple
             Console.WriteLine(text);
         }
 
+        static void Er(string text)
 
+        {
+            Console.WriteLine(text);
+
+        }
 
     }
     

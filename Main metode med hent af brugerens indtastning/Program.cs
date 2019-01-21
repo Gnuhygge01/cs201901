@@ -11,9 +11,9 @@ namespace Main_metode_med_hent_af_brugerens_indtastning
         static void Main(string[] args)
         {
 
-            String tmp = "";
+            
             Console.WriteLine("Skriv en test og tryk Enter");
-            tmp = Console.ReadLine();
+            String tmp = Console.ReadLine();
             Console.WriteLine("Du skrev " + tmp);
             Console.WriteLine("tak for det");
             //gå tilbage og find \t\n\r og brug det :-)
