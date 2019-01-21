@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statisk metode", "Statisk m
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overload", "Overload\Overload.csproj", "{F1E67947-BE0D-4EEE-9073-AC37A3D18BB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rekursiv metode Løkke", "Rekursiv metode Løkke\Rekursiv metode Løkke.csproj", "{F6B95BEA-C69B-40E8-B82B-755D9AFFF933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rekursivmetode get file", "Rekursivmetode get file\Rekursivmetode get file.csproj", "{12A1A779-BE03-48D6-8308-7DD894F72F4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{F1E67947-BE0D-4EEE-9073-AC37A3D18BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1E67947-BE0D-4EEE-9073-AC37A3D18BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1E67947-BE0D-4EEE-9073-AC37A3D18BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B95BEA-C69B-40E8-B82B-755D9AFFF933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B95BEA-C69B-40E8-B82B-755D9AFFF933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B95BEA-C69B-40E8-B82B-755D9AFFF933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B95BEA-C69B-40E8-B82B-755D9AFFF933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A1A779-BE03-48D6-8308-7DD894F72F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A1A779-BE03-48D6-8308-7DD894F72F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A1A779-BE03-48D6-8308-7DD894F72F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A1A779-BE03-48D6-8308-7DD894F72F4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -16,7 +16,7 @@ namespace Overload
             Console.WriteLine(Beregn(1,2,3));
 
 
-            Console.WriteLine(Beregn(1; 2, 4,5));
+            Console.WriteLine(Beregn(1,2, 4,5));
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
