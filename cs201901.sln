@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rekursiv metode Løkke", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rekursivmetode get file", "Rekursivmetode get file\Rekursivmetode get file.csproj", "{12A1A779-BE03-48D6-8308-7DD894F72F4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fejl", "Fejl\Fejl.csproj", "{01859F95-E61F-4E89-A4E0-AAD6125CCC9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{12A1A779-BE03-48D6-8308-7DD894F72F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12A1A779-BE03-48D6-8308-7DD894F72F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12A1A779-BE03-48D6-8308-7DD894F72F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01859F95-E61F-4E89-A4E0-AAD6125CCC9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01859F95-E61F-4E89-A4E0-AAD6125CCC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01859F95-E61F-4E89-A4E0-AAD6125CCC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01859F95-E61F-4E89-A4E0-AAD6125CCC9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
