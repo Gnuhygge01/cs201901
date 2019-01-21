@@ -14,11 +14,18 @@ namespace Fejl
             {
                 PrøvIgen();
             }
+            catch (NullReferenceException ex)
+            {
+
+
+            }
             catch (Exception ex)
             {
                 Console.Beep();
+                
                 Console.WriteLine($"der er sket en fejl igen og Chefen er tilkaldt" + ex.Message);
             }
+            
             if (System.Diagnostics.Debugger.IsAttached)
 
             {
