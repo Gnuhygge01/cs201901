@@ -11,7 +11,7 @@ namespace Rekursivmetode_get_file
         static void Main(string[] args)
         {
 
-            
+            // find ud af 
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
