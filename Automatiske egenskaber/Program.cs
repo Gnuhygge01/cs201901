@@ -12,7 +12,7 @@ namespace Automatiske_egenskaber
         {
             Person p = new Person();
             p.Fornavn = "gert";
-            p.Efternavn = "er";
+            p.Efternavn = "er tilbage og har bent med";
             Console.WriteLine(p.Fuldtnavn());
 
             if (System.Diagnostics.Debugger.IsAttached)
