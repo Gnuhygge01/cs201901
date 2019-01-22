@@ -46,11 +46,11 @@ namespace Komplette_egenskaber
             public string  Navn
             {
                 get {
-
+                    //log
                     return navn;
                 }
                 set {
-
+                    //log
                     navn = value;
                 }
             }
@@ -61,10 +61,12 @@ namespace Komplette_egenskaber
             {
                 get
                 {
+                    //log
                     return pris; }
 
                 set
                 {
+                    //log
                     pris = value; }
             }
 

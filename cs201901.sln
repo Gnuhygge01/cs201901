@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "klasser(Terning)", "klasser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Komplette egenskaber", "Komplette egenskaber\Komplette egenskaber.csproj", "{49BB14B0-A900-4079-80B3-F68F796BADBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automatiske egenskaber", "Automatiske egenskaber\Automatiske egenskaber.csproj", "{058BAB7A-9B14-4C35-9608-6101E959C793}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{49BB14B0-A900-4079-80B3-F68F796BADBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49BB14B0-A900-4079-80B3-F68F796BADBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49BB14B0-A900-4079-80B3-F68F796BADBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{058BAB7A-9B14-4C35-9608-6101E959C793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058BAB7A-9B14-4C35-9608-6101E959C793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058BAB7A-9B14-4C35-9608-6101E959C793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058BAB7A-9B14-4C35-9608-6101E959C793}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
