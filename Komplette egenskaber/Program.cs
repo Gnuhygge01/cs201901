@@ -54,8 +54,24 @@ namespace Komplette_egenskaber
                     navn = value;
                 }
             }
-            public double Pris;
+             
+            private double pris;
 
+            public double Pris
+            {
+                get
+                {
+                    return pris; }
+
+                set
+                {
+                    pris = value; }
+            }
+
+            public double PrisMedMoms()
+            {
+                return this.pris * 1.25;
+            }
 
 
         }
