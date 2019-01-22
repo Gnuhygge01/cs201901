@@ -10,16 +10,16 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-
+            //List<int> lst1 = 
             //int[] array1;
 
             //array1 = new int[6];
 
-            int[] månedsløn = { 10000, 20000, 15000, 20000, 30000, 15000 };
+            //int[] månedsløn = { 10000, 20000, 15000, 20000, 30000, 15000 };
 
 
 
-            Console.WriteLine(månedsløn.);
+            //Console.WriteLine(månedsløn.);
 
 
 

@@ -13,8 +13,5 @@ namespace hyggeleg
         }
 
     }
-    public ClassNamePlaceholder()
-    {
 
-    }
 }
