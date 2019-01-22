@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skriv til fil", "skriv til 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpel klasse", "Simpel klasse\Simpel klasse.csproj", "{CA80FE9F-BDF2-4F71-80AD-50828AE89ADC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "klasser(Terning)", "klasser(Terning)\klasser(Terning).csproj", "{AED1653C-1E5B-430B-8164-201A1AA5233A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{CA80FE9F-BDF2-4F71-80AD-50828AE89ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA80FE9F-BDF2-4F71-80AD-50828AE89ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA80FE9F-BDF2-4F71-80AD-50828AE89ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED1653C-1E5B-430B-8164-201A1AA5233A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED1653C-1E5B-430B-8164-201A1AA5233A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED1653C-1E5B-430B-8164-201A1AA5233A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED1653C-1E5B-430B-8164-201A1AA5233A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
