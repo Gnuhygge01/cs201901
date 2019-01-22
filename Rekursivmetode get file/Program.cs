@@ -12,6 +12,7 @@ namespace Rekursivmetode_get_file
         {
 
             // find ud af 
+            PrintFiler(@"c:\git");
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
