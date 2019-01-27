@@ -11,7 +11,7 @@ namespace Date_time
         static void Main(string[] args)
         {
 
-            System.DateTime d1 = DateTime.Now;
+            DateTime d1 = DateTime.Now;
             Console.WriteLine(d1);
 
          
