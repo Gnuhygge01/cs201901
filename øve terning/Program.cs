@@ -10,21 +10,39 @@ namespace øve_terning
     {
         static void Main(string[] args)
         {
+            Terning t1 = new Terning();
+            t1.Ryst();
+            t1.Skriv();
+
+            Terning t2 = new Terning();
+            t2.Skriv();
+            for (var i = 0; i < 10; i++)
+            {
+                t2.Ryst();
+                t2.Skriv();
+            }
+             
+
+            Console.ReadKey();
+
+
         }
     }
     public class Terning
     {
-        private static System.Random rnd;
+        private static Random rnd = new Random();
         private int værdi;
 
-        public int Værdi
+        public void Skriv()
         {
-            get
-            {
-                //
-                return this.værdi;
+            Console.WriteLine("[" + this.værdi + "]");
 
-            }
+        }
+
+        public void Ryst()
+        {
+            this.værdi = rnd.Next(1, 7);
         }
     }
+
 }
