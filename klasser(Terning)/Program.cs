@@ -43,6 +43,7 @@ namespace klasser_Terning_
 
         public Terning()
         {
+            //log 
             this.værdi = 1;
             this.snyd = false;
         }
