@@ -44,6 +44,7 @@ namespace start5
     class Elev :Person
     {
         public string KlasseLokale { get; set; }
+        
     }
 
     class Instruktør : Person

@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ren trænning", "ren trænn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arv simpel", "start5\Arv simpel.csproj", "{FB219350-FF55-4007-B84B-A95816FE029D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arv udvidet", "Arv udvidet\Arv udvidet.csproj", "{3A26CC6C-D30A-487F-A069-5F2E67AAE56E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{FB219350-FF55-4007-B84B-A95816FE029D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB219350-FF55-4007-B84B-A95816FE029D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB219350-FF55-4007-B84B-A95816FE029D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A26CC6C-D30A-487F-A069-5F2E67AAE56E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A26CC6C-D30A-487F-A069-5F2E67AAE56E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A26CC6C-D30A-487F-A069-5F2E67AAE56E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A26CC6C-D30A-487F-A069-5F2E67AAE56E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
