@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terning og ludo terning", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arv_poly kundearkiv", "Arv_poly kundearkiv\Arv_poly kundearkiv.csproj", "{6C68DE8A-2282-4C5C-BE19-B3A5AD780514}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poly dyr", "poly dyr\poly dyr.csproj", "{FF5FC65F-F555-45BD-AC02-344B6483C013}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,10 @@ Global
 		{6C68DE8A-2282-4C5C-BE19-B3A5AD780514}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C68DE8A-2282-4C5C-BE19-B3A5AD780514}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C68DE8A-2282-4C5C-BE19-B3A5AD780514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF5FC65F-F555-45BD-AC02-344B6483C013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5FC65F-F555-45BD-AC02-344B6483C013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5FC65F-F555-45BD-AC02-344B6483C013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5FC65F-F555-45BD-AC02-344B6483C013}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
