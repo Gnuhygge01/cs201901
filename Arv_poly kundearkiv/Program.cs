@@ -10,23 +10,23 @@ namespace Arv_poly_kundearkiv
     {
         static void Main(string[] args)
         {
-            Faktura f = new Faktura() { Nr = 1, Kunde = "abc", Dato = DateTime.Now.Date };
-            Console.WriteLine(f);
+            //       // Faktura f = new Faktura() { Nr = 1, Kunde = "abc", Dato = DateTime.Now.Date };
+            //        Console.WriteLine(f);
 
 
+            //    }
+            //}
+            //class Faktura
+            //{
+            //    public int nr { get; set; }
+            //    public string Kunde{ get; set; }
+            //    public DateTime Dato { get; set; }
+
+            //    public override string ToString()
+            //    {
+            //        //return $"Faktura til {Kunde} nr {Nr} fra {Dato:D}.";
+            //    }
         }
-    }
-    class Faktura
-    {
-        public int nr { get; set; }
-        public string Kunde{ get; set; }
-        public DateTime Dato { get; set; }
-
-        public override string ToString()
-        {
-            return $"Faktura til {Kunde} nr {Nr} fra {Dato:D}.";
-        }
-
 
     }
 

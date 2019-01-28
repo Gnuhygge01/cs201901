@@ -24,9 +24,9 @@ namespace poly_dyr
 
             Console.ReadKey();
 
-            //foreach Dyr z
+            //foreach Dyr dyr =
             //    {
-            //SigerNoget();
+            //dyr.SigerNoget();
             //}
         }
     }
