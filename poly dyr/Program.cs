@@ -16,19 +16,30 @@ namespace poly_dyr
 
             Kat k = new Kat() { Navn = "Pussy" };
             k.SigerNoget();
+            Console.WriteLine();
+
+            Dyr f = new Kat() { Navn = "rytt" };
+                f.SigerNoget();
+
 
             Console.WriteLine();
 
             List<Dyr> zoo = new List<Dyr>();
             zoo.Add(new Hund() { Navn = "peto" });
+            zoo.Add(new Hund() { Navn = "pettto" });
+            Console.WriteLine();
 
+
+           
+
+            foreach (Dyr dyr in zoo)
+            {
+                dyr.SigerNoget();
+            }
             Console.ReadKey();
-
-            //foreach Dyr dyr =
-            //    {
-            //dyr.SigerNoget();
-            //}
         }
+         
+
     }
     abstract class Dyr
     {
