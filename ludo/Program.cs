@@ -18,8 +18,14 @@ namespace ludo
             LudoTerning l = new LudoTerning();
             
             l.Skriv();
-            Console.WriteLine(l.ErGlobus());
-            Console.WriteLine(l.ErStjerne());
+            for (int i = 0; i < 10; i++)
+            {
+                l.Ryst();
+                l.Skriv(); 
+            
+            }
+            //Console.WriteLine(l.Erglobus());
+            //Console.WriteLine(l.Erstjerne());
 
             // Hold console åben ved debug
             if (System.Diagnostics.Debugger.IsAttached)
@@ -80,11 +86,11 @@ namespace ludo
 
     public class LudoTerning : Terning
     {
-        public bool erglobus()
+        public bool Erglobus()
         {
             return this.Værdi == 3;
         }
-        public bool erstjerne()
+        public bool Erstjerne()
         {
             return this.Værdi == 5;
         }
