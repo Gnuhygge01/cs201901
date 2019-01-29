@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate_simpel", "Delegate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Action", "Action\Action.csproj", "{D687D42E-5602-4A6F-8D77-08FB6DAF0A10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda", "Lambda\Lambda.csproj", "{80F67E90-AE4F-4C15-A5C9-6379BA391DE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{D687D42E-5602-4A6F-8D77-08FB6DAF0A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D687D42E-5602-4A6F-8D77-08FB6DAF0A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D687D42E-5602-4A6F-8D77-08FB6DAF0A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F67E90-AE4F-4C15-A5C9-6379BA391DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F67E90-AE4F-4C15-A5C9-6379BA391DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F67E90-AE4F-4C15-A5C9-6379BA391DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F67E90-AE4F-4C15-A5C9-6379BA391DE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
