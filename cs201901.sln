@@ -95,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda", "Lambda\Lambda.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event_Filewatcher", "Event_Filewatcher\Event_Filewatcher.csproj", "{809710FF-8F18-4FBE-A768-A05587C722C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leg igen", "leg igen\leg igen.csproj", "{C9B77783-0AAF-4736-8858-B8C153E7A790}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,10 @@ Global
 		{809710FF-8F18-4FBE-A768-A05587C722C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{809710FF-8F18-4FBE-A768-A05587C722C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{809710FF-8F18-4FBE-A768-A05587C722C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B77783-0AAF-4736-8858-B8C153E7A790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B77783-0AAF-4736-8858-B8C153E7A790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B77783-0AAF-4736-8858-B8C153E7A790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B77783-0AAF-4736-8858-B8C153E7A790}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
